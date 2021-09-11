@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    color: #5f6368;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+main{
+    display: flex;
+    height: 85vh;
+    align-content: center;
+}
+article{
+    margin: auto;
+}
+footer{
+    background-color: #F2F2F2;
+    -webkit-box-shadow: 0px -1px 5px 0px #E1E1E1; 
+    box-shadow: 0px -1px 5px 0px #E1E1E1;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    margin: 20px 10px;
+}
+li:first-child{
+    margin-left: 30px;
+}
+li:last-child{
+    margin-right: 30px;
+}
+input{
+    width: 480px;
+    height: 35px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    border: 0;
+}
+button{
+    padding: 10px 30px;
+    background-color: #4386FB;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+
+}
+button.search{
+    background-color: #F1F1F1;
+    color: #5f6368;
+    margin: 30px 10px;
+}
+.button-grp{
+    width: 480px;
+    display: flex;
+    justify-content:center ;
+}
+.yerlestirme{
+    position: relative;
+    width: 480px;
+    height: 35px;
+}
+.mik{
+    position: absolute;
+    height: 20px;
+    right: 15px;
+    top: 7px;
+}
+.src{
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.google-logo{
+    margin-left: 80px;
+}
+.menucu{
+    width: 20px;
+    opacity: 0.7;
+}
